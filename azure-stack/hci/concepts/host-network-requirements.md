@@ -3,7 +3,7 @@ title: Host network requirements for Azure Stack HCI
 description: Learn the host network requirements for Azure Stack HCI
 author: dcuomo
 ms.topic: how-to
-ms.date: 06/20/2024
+ms.date: 06/21/2024
 ms.author: dacuo
 ms.reviewer: JasonGerend
 ---
@@ -328,7 +328,7 @@ Stretched clusters have the following requirements and characteristics:
 
   - Must meet any additional requirements for Storage Replica.
 
-### Stretched cluster example
+<!-- ### Stretched cluster example
 
 The following example illustrates a stretched cluster configuration. To ensure that a specific virtual NIC is mapped to a specific physical adapter, use the [Set-VMNetworkAdapterTeammapping](/powershell/module/hyper-v/set-vmnetworkadapterteammapping) cmdlet.
 
@@ -373,7 +373,7 @@ The following shows the details for the example stretched cluster configuration.
 |NodeB1|Stretch1|pNIC01|175.0.0.1/8|Cross-Site Routable|
 |NodeB2|Stretch1|pNIC01|175.0.0.2/8|Cross-Site Routable|
 |NodeB1|Stretch2|pNIC02|176.0.0.1/8|Cross-Site Routable|
-|NodeB2|Stretch2|pNIC02|176.0.0.2/8|Cross-Site Routable|
+|NodeB2|Stretch2|pNIC02|176.0.0.2/8|Cross-Site Routable|-->
 
 ## Next steps
 
